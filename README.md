@@ -1,7 +1,7 @@
 AngularSlideables
 =================
 
-A ìpureî Angular implementation of jQuery-style toggleSlide().
+A ‚Äúpure‚Äù Angular implementation of jQuery-style toggleSlide().
 
 See http://jsfiddle.net/3sVz8/19/ for an example.
 
@@ -9,9 +9,17 @@ USAGE:
 
 Link to the library in your index (or require.js), and add 'angularSlideables' to your app modules.
 
-No CSS is necessary. Add the ìslideableî class to any hidden, slideable content. Add a slide-toggle attribute to any trigger.
+No CSS is necessary. Add the ‚Äúslideable‚Äù class to any hidden, slideable content. Add a slide-toggle attribute to any trigger.
 
-This directive currently only works on single targetted IDs. Iíll expand it to cover classes if thereís demand.
+This directive currently only works on single targetted IDs. I‚Äôll expand it to cover classes if there‚Äôs demand.
+
+=== 
+
+Bower:
+`bower install angular-slideables --save`
+
+NPM
+`npm install angular-slideables`
 
 EXAMPLES:
 
@@ -26,7 +34,7 @@ EXAMPLES:
 &lt;/article&gt;
 </code></pre>
 
-The ID can be dynamically generatedÖ
+The ID can be dynamically generated‚Ä¶
 
 <pre><code>&lt;ul&gt;
     &lt;li ng-repeat="row in data"&gt;
@@ -40,4 +48,4 @@ The ID can be dynamically generatedÖ
 
 OPTIONAL ATTRIBUTES:
 
-<pre><code>&lt;div id="derp" class="slideable" easing="linear" duration="5s"&gt;Ö&lt;/div&gt;</code></pre>
+<pre><code>&lt;div id="derp" class="slideable" easing="linear" duration="5s"&gt;‚Ä¶&lt;/div&gt;</code></pre>
