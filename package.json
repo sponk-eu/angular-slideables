@@ -1,0 +1,25 @@
+{
+  "name": "angular-slideables",
+  "version": "1.0.0",
+  "description": "A \"pure\" Angular implementation of jQuery-style toggleSlide().",
+  "main": "angular-slideables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sponk-eu/angular-slideables.git"
+  },
+  "keywords": [
+    "angular",
+    "slidetoogle",
+    "toogle",
+    "jquery"
+  ],
+  "author": "Maciej Pochroń <maciejpochron@sponk.pl> (sponk.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sponk-eu/angular-slideables/issues"
+  },
+  "homepage": "https://github.com/sponk-eu/angular-slideables#readme"
+}
